@@ -1,5 +1,5 @@
 # Code-Ground
-### It will help you to solve some basic logical problem
+### It will help you to solve some basic logical problems
 
 ## How to contribute?
 - Fork this repo
