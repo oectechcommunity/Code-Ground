@@ -1,4 +1,4 @@
-#Python2
+//Python2
 
 dec=input('Enter a decimal no:')
 octal=0
