@@ -1,4 +1,4 @@
-# Python2
+// Python2
 
 no=input('Enter a number')
 record=no
