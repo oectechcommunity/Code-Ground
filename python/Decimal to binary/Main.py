@@ -1,4 +1,4 @@
-#Python2
+//Python2
 
 dec=input('Enter decimal no:')
 bin=0
