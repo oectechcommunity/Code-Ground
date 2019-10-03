@@ -1,4 +1,4 @@
-#Python3
+//Python3
 
 p=int(input("Enter principal value"))
 r=int(input("Enter rate"))
