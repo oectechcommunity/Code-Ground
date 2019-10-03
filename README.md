@@ -1,6 +1,6 @@
 # Code-Ground
 
-#### It will help you to solve some basic logical problems 🙂 🙂
+#### It will help you to solve some basic logical problems 🙂
 
 
 ## How to contribute?
