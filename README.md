@@ -3,7 +3,9 @@
 
 ## How to contribute?
 - Fork this repo
-- Upload your solution of any question
-- Make sure the file name must be named as "Main"
+- Open your favourite language folder
+- Open any folder which does not have a solution file.
+- Create a new solution file (The solution file must be named as Main.[extension]. Example: Main.py)
+- Put your solution code inside
 - Commit your changes
 - Create a pull request
