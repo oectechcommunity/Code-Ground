@@ -1,3 +1,5 @@
+//python 2
+
 no=input('Enter a number')
 fact=1
 while no>0:
