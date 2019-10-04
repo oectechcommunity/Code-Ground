@@ -1,15 +1,12 @@
-len=input("enter the length of the fibonacci series")
-first_value=0
-second_value=1
-iteration=0
+def recur_fibo(n):
+        if n<=1:
+                return n
+        else:
+                return(recur_fibo(n-1)+recur_fibo(n-2))
+len=int(input("Enter the length of your fibonacci series: "))
 if len<=0:
-        print"provide a number greater then zero"
-elif len==1:
-        print "1"
+        print("please enter a positive integer")
 else:
-        while iteration<len:
-                final_value=first_value+second_value
-                first_value=second_value
-                second_value=final_value
-                iteration+=1
-        print"fibonacci series is",final_value                                              
+        print("fibonacci sequence: ")
+for i in range(len):
+        print(recur_fibo(i))                                          
