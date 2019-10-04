@@ -1,4 +1,4 @@
-side=int(input("enter side of a square"))
+side=float(input("enter side of a square"))
 area=pow(side,2)
 print("Area:",area)
 
