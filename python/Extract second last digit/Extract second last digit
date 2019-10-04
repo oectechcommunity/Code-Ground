@@ -1,0 +1,5 @@
+num=input("enter a number:")
+if num.isdigit():
+    print(str(num[-2]))
+else:
+    print("pls enter number")
