@@ -1,0 +1,10 @@
+char=input("enter any character:")
+c=char.casefold()
+if c.isalpha():
+    if c=='a' or c=='e' or c=='i' or c=='o' or c=='u':
+        print("vowel")
+    else:
+        print("consonent")
+else:
+    print("please use alphabet")
+
