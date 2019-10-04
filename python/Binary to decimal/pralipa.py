@@ -1,9 +1,7 @@
-bin=input("Enter binary:")
-dec=0
-base=1
-while bin>0:
-        rem=bin%10
-        dec=dec+rem*base
-        base=base*2
-        bin=bin/10
-print dec
+print("Enter 'X' for exit.");
+binary=input("Enter a number in binary form : ");
+if binary == 'X':
+        exit();
+else:
+        decimal = int(binary, 2);
+        print(binary,"in Decimal =",decimal);
