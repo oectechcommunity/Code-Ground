@@ -3,13 +3,13 @@
  
 void main()
 {
-   int length, breadth, area;
+   float length, breadth, area;
    printf("\nEnter the Length of Rectangle : ");
-   scanf("%d", &length);
+   scanf("%f", &length);
  
    printf("\nEnter the Breadth of Rectangle : ");
-   scanf("%d", &breadth);
+   scanf("%f", &breadth);
  
    area = length * breadth;
-   printf("\nArea of Rectangle : %d", area);
+   printf("\nArea of Rectangle : %f", area);
  }
