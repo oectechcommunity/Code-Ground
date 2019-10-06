@@ -1,11 +1,12 @@
 #include<stdio.h>
  
-void main() {
-   int side, area;
+void main() 
+{
+   float side, area;
  
    printf("\nEnter the Length of Side : ");
-   scanf("%d", &side);
+   scanf("%f", &side);
  
    area = side * side;
-   printf("\nArea of Square : %d", area);
+   printf("\nArea of Square : %f", area);
 }
