@@ -26,8 +26,7 @@ int isArmstrong(int n) {
     return 0;
   }
 
-  int sum = 0, temp;
-  int remainder;
+  int sum = 0, temp, remainder;
   unsigned int dig = digits(n);
 
   temp = n;
@@ -35,7 +34,6 @@ int isArmstrong(int n) {
   while (temp) {
     remainder = temp%10;
     sum += power(remainder, dig);
-    printf("%d\n",sum);
     temp /= 10;
   }
 
