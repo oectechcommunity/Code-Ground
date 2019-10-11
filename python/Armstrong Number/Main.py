@@ -13,7 +13,7 @@ while no>0:
   sum=sum+last**count
   no=no/10
 no=record
-if sum==no
+if sum==no:
   print 'i am armstrong'
 else:
   print 'i am not an armstrong'
