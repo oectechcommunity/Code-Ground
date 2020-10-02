@@ -6,4 +6,3 @@ for i in range(range1):
     c=a+b
     a=b
     b=c
-print(b)
