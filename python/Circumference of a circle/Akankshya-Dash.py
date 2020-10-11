@@ -2,13 +2,10 @@
 # circumference of circle 
 
 PI = 3.1415
-
-# utility function 
-def circumference(r): 
-	return (2 * PI * r) 
-
+rad= float(input("enter radius of the circle"))
+cir= 2*PI*rad
 
 # driver function 
-print ('%.3f' % circumference(5)) 
+print ("the circumference of the circle is", cir) 
 
 
