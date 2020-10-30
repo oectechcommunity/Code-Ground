@@ -1,34 +1,20 @@
-import java.util.Scanner;
-public class Demo {
+public class Main {
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
 
-    	int year;
-    	Scanner scan = new Scanner(System.in);
-    	System.out.println("Enter any Year:");
-    	year = scan.nextInt();
-    	scan.close();
-        boolean isLeap = false;
+    // positive number
+    int number = 60;
 
-        if(year % 4 == 0)
-        {
-            if( year % 100 == 0)
-            {
-                if ( year % 400 == 0)
-                    isLeap = true;
-                else
-                    isLeap = false;
-            }
-            else
-                isLeap = true;
-        }
-        else {
-            isLeap = false;
-        }
+    System.out.print("Factors of " + number + " are: ");
 
-        if(isLeap==true)
-            System.out.println(year + " is a Leap Year.");
-        else
-            System.out.println(year + " is not a Leap Year.");
+    // loop runs from 1 to 60
+    for (int i = 1; i <= number; ++i) {
+
+      // if number is divided by i
+      // i is the factor
+      if (number % i == 0) {
+        System.out.print(i + " ");
+      }
     }
+  }
 }
